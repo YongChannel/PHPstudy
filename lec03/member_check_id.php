@@ -28,7 +28,7 @@ h3 {
 
         $num_record = mysqli_num_rows($result);
 
-        if ($num_record) {
+        if($num_record) {
             echo "<li>".$id." 아이디는 중복됩니다.</li>";
             echo "<li>다른 아이디를 사용해 주세요!</li>";
         } else {
