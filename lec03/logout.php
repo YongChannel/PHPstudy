@@ -5,9 +5,9 @@
     unset($_SESSION["userlevel"]);
     unset($_SESSION["userpoint"]);
 
-    echo("
-        <script>
-            location.href = 'index.php';
-        </script>
+    echo ("
+    <script>
+        location.href = 'index.php';
+    </script>
     ");
 ?>

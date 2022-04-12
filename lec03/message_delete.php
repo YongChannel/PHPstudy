@@ -14,9 +14,9 @@
         $url = "message_box.php?mode=rv";
     }
 
-    echo "
-        <script>
-            location.href='$url';
-        </script>
-    ";
+    echo ("
+    <script>
+        location.href='$url';
+    </script>
+    ");
 ?>

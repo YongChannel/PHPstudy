@@ -14,11 +14,11 @@
 	$sql .= "values('$id', '$pass', '$name', '$email', '$regist_day', 9, 0)";
 
 	mysqli_query($con, $sql);  // $sql 에 저장된 명령 실행
-    mysqli_close($con);     
+    mysqli_close($con);
 
-    echo "
-        <script>
-            location.href = 'index.php';
-        </script>
-    ";
+    echo ("
+    <script>
+        location.href = 'index.php';
+    </script>
+    ");
 ?>
